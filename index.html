@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>GitHub API</title>
+</head>
+<body>
+    <header>
+        <h1>GitHub Repo Search</h1>
+    </header>
+    <section class="search-section">
+        <form class="search-form">
+            <label for="repo-search">Please enter a GitHub handle: </label>
+            <input type="text" id="repo-search" required>
+            <button type="submit" class="search-button">Search</button>
+        </form>
+    </section>
+    <section class="results-section">
+        <h2>Search results:</h2>
+        <ul class="search-results">
+            <!-- THIS PART WILL BE DYNAMICALLY RENDERED SEARCH RESULTS -->
+        </ul>
+    </section>
+    <section class="error-section">
+        <p id="error-message"></p>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#error-message{
+    color: red;
+    margin-top: 5%;
+    font-weight: bold;
+}
